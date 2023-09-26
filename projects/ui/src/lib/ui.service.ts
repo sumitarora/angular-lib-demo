@@ -5,5 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class UiService {
 
+  sayHello() {
+    console.log('hello there');
+  }
+
   constructor() { }
 }

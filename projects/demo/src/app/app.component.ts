@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UiService } from 'ui';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
+  constructor(private uiService: UiService) {
+    console.log(this.uiService.sayHello());
+  }
 }

@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-ui',
   template: `
     <p>
-      ui works!
+      awesome ui works!!!!
     </p>
   `,
   styles: [
